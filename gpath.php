@@ -1,6 +1,7 @@
 <?php
 //die("this program is supposed to run massive database operations! comment the line throwing this to continue");
 /*
+GeneratePATH:gpath
 you might need to open the database wrapper in DB.php in order to set database name on line 10
 you may also need to comment line 37 in this script and uncomment/modify line 36
 
@@ -33,8 +34,8 @@ the $tp is updated per step to ensure that redundant paths are removed
 
 */
 set_time_limit(0);
-include 'config.php';
-include 'DB.php';
+include 'php/config.php';
+include 'php/DB.php';
 
 $db=mysql_connect(DB_SERVER, DB_USER, DB_PASS);
 mysql_select_db(DB_NAME) or die("<a href='install.php'>Click here to install</a>");
