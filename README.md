@@ -1,5 +1,4 @@
 # PHPtraffic
-# The scripts in this repository can be harmful to your computer system
 # certain functions requires a script to run for up to 7 or 10 minutes
 # using up massive system resources alongside.  Please be warned. 
 
